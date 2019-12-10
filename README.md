@@ -106,6 +106,8 @@ NB:All fields can be updated except code which is a unique identifier
 ###############################################################################################
 
 Name : Find One record
+
+
 Route(POST) : localhost:8080/records
 
 requestData :
@@ -135,6 +137,8 @@ Response:
 
 #################################################################################################
 Name : Get all Records
+
+
 Route(POST):localhost:8080/records/all
 
 NB: default page size is 20 and page Number is 1 
@@ -144,6 +148,7 @@ requestdata:
 	"pageSize":"2",
 	"pageNum":"1"
 }
+
 
 response:
 {
@@ -178,8 +183,14 @@ response:
 }
 
 ###############################################################
+
+
 Name  :Delete Record
+
+
 Route(POST) : localhost:8080/records/delete
+
+
  requestData:
  {
 	"apiKey":"2222",
@@ -187,6 +198,8 @@ Route(POST) : localhost:8080/records/delete
 		"code":"12345"
 	}
 }
+
+
 
 response:
 {
