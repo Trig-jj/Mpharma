@@ -1,9 +1,15 @@
 # Mpharma
 
-Test\n
-#######################################\n
-Development language :Kotlin (Vertx)\n
-database: Mongo\n
+#Test
+
+
+#######################################
+
+
+Development language :Kotlin (Vertx)
+
+database: Mongo
+
 #########################################
 ###########################################
 
@@ -13,9 +19,12 @@ for database we only create database :- mpharma_db and collection:- tbl_record.
 port , dbname can be changed and changes should also be done in the codes.
 
 
-:
 ##################################################################################
+
+
 Name:Add Record
+
+
 Routes(POST): localhost:8080/api/v1/add
 
 requestData:
@@ -31,6 +40,7 @@ requestData:
 	}
 	
 }
+
 
 Response:
 {
@@ -54,7 +64,9 @@ Response:
 
 #############################################################################################
 
-Name :Update Record:
+Name :Update Record
+
+
 Route(POST) : localhost:8080/api/v1/update
 
 requestData :
