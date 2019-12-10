@@ -1,9 +1,9 @@
 # Mpharma
 
-Test
-#######################################
-Development language :Kotlin (Vertx)
-database: Mongo
+Test\n
+#######################################\n
+Development language :Kotlin (Vertx)\n
+database: Mongo\n
 #########################################
 ###########################################
 
