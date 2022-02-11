@@ -14,7 +14,7 @@
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.version>1.2.61</kotlin.version>
-        <vertx.version>3.8.4</vertx.version>
+        <vertx.version>3.9.4</vertx.version>
         <mongo.version>3.8.0</mongo.version>
         <junit.version>4.12</junit.version>
     </properties>
